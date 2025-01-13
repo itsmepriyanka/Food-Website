@@ -18,6 +18,24 @@
     .top-banner{
         padding: 9.375rem 0 9.375rem;
     }
+    .modal-dialog {
+        max-width: 100%;
+        margin: 10px;
+      }
+    
+      .modal-title {
+        font-size: 1.25rem;
+      }
+    
+      .table_data th, .table_data td {
+        font-size: 0.9rem;
+        padding: 8px;
+      }
+    
+      .modal-footer button {
+        font-size: 0.9rem;
+        padding: 8px 10px;
+      }
     
 }
 
@@ -35,6 +53,7 @@
     .testimonial-section .carousel-item{
         padding: 11rem 3.125rem;
     }
+    
 }
 @media (max-width:330px){
     .testimonial-section .carousel-item{
@@ -42,3 +61,29 @@
         box-sizing: border-box;
     }
 }
+
+@media (max-width: 768px) {
+    
+  }
+  
+  @media (max-width: 480px) {
+    .modal-title {
+      font-size: 1rem;
+    }
+  
+    .table_data th, .table_data td {
+      font-size: 0.8rem;
+      padding: 6px;
+    }
+  
+    .modal-footer button {
+      font-size: 0.8rem;
+      padding: 6px 8px;
+    }
+  
+    .preview img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
