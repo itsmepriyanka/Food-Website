@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./media/595fa5ffb3d67f62ceabaa0d9a40d1e2.png"
+      type="image/x-icon"
+    />
+
+    <!-- Content Delivery Network (CDN) link of bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+
+    <title>Burger</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+    <header>
+      <nav class="navbar navbar-expand-lg navigation-wrap">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./media/595fa5ffb3d67f62ceabaa0d9a40d1e2.png"
+              alt="logo"
+              class="img-fluid"
+              width="100px"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-stream navbar-toggler-icon"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#explore-food">Explore Foods</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonial">Reviews</a>
+              </li>
+              <li>
+                <button class="main-btn">980 000 0000</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- section-1 top-banner -->
+    <section id="home">
+      <div class="container-fluid px-0 top-banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-md-6">
+              <h1>UNLIMITED <br />MEDIUM <span>PIZZAS</span></h1>
+              <h2>Medium 2-topping* pizza</h2>
+              <p>
+                *Additional charge for premium toppings. Minimum of 2 required.
+              </p>
+              <div class="mt-4">
+                <button class="main-btn">
+                  Order now <i class="bi bi-cart-check ps-3"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section-2 our-menu -->
+    <section class="our-menu p-4">
+      <div class="container text-center">
+        <h2 class="pb-4">Our Menu</h2>
+        <div class="row">
+          <div class="col-6 col-sm-2 mb-4 mb-lg-0">
+            <div
+              class="card"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              <div class="cat-image">
+                <a href="" class="link_category_product">
+                  <img src="./media/category1.png" alt="" class="img-fluid" />
+                </a>
+              </div>
+              <div class="cattitle">
+                <a href="#">Pizza</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-2 mb-4 mb-lg-0">
+            <div class="card">
+              <div class="cat-image">
+                <a href="" class="link_category_product">
+                  <img src="./media/category2.png" alt="" class="img-fluid" />
+                </a>
+              </div>
+              <div class="cattitle">
+                <a href="#">Sauces</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-2 mb-4 mb-lg-0">
+            <div
+              class="card"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop1"
+            >
+              <div class="cat-image">
+                <a href="" class="link_category_product">
+                  <img src="./media/category3.png" alt="" class="img-fluid" />
+                </a>
+              </div>
+              <div class="cattitle">
+                <a href="#">Combo</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-2 mb-4 mb-lg-0">
+            <div class="card">
+              <div class="cat-image">
+                <a href="" class="link_category_product">
+                  <img src="./media/category4.png" alt="" class="img-fluid" />
+                </a>
+              </div>
+              <div class="cattitle">
+                <a href="#">Kids Menu</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-2 mb-4 mb-lg-0">
+            <div class="card">
+              <div class="cat-image">
+                <a href="" class="link_category_product">
+                  <img src="./media/category5.png" alt="" class="img-fluid" />
+                </a>
+              </div>
+              <div class="cattitle">
+                <a href="#">Chicken</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-2 mb-4 mb-lg-0">
+            <div class="card">
+              <div class="cat-image">
+                <a href="" class="link_category_product">
+                  <img src="./media/category6.png" alt="" class="img-fluid" />
+                </a>
+              </div>
+              <div class="cattitle">
+                <a href="#">Box Meal</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <!-- for Pizza -->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5" id="staticBackdropLabel">Pizza</h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="preview">
+              <img src="./media/category1.png" alt="" class="m-auto" />
+              <h3></h3>
+              <div class="starts text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <span>(250)</span>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                repellendus.
+              </p>
+
+              <div class="table_data">
+                <table border="1" width="100%" class="text-center">
+                  <thead>
+                    <tr>
+                      <th>size</th>
+                      <th>price</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Large(chicken)</td>
+                      <td>Rs 999</td>
+                    </tr>
+                    <tr>
+                      <td>Large(mushroom)</td>
+                      <td>Rs 949</td>
+                    </tr>
+                    <tr>
+                      <td>Medium(chicken)</td>
+                      <td>Rs 699</td>
+                    </tr>
+                    <tr>
+                      <td>Medium(mushroom)</td>
+                      <td>Rs 649</td>
+                    </tr>
+                    <tr>
+                      <td>Small(chicken)</td>
+                      <td>Rs 399</td>
+                    </tr>
+                    <tr>
+                      <td>Small(mushroom)</td>
+                      <td>Rs 399</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger p-2 px-3"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="main-btn">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- for Combo -->
+    <div
+      class="modal fade"
+      id="staticBackdrop1"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5" id="staticBackdropLabel">Pizza</h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="preview">
+              <img src="./media/category3.png" alt="" class="m-auto" />
+              <h3></h3>
+              <div class="starts text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star"></i>
+                <span>(200)</span>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                repellendus.
+              </p>
+
+              <div class="table_data">
+                <table border="1" width="100%" class="text-center">
+                  <thead>
+                    <tr>
+                      <th>Items</th>
+                      <th>price</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1 Burger + 1 Fries + 1 Drink</td>
+                      <td>Rs 449</td>
+                    </tr>
+                    <tr>
+                      <td>2 Burger + 1 Fries + 2 Drinks</td>
+                      <td>Rs 749</td>
+                    </tr>
+                    <tr>
+                      <td>1 Medium Pizza(chicken) + 1 Drinks</td>
+                      <td>749</td>
+                    </tr>
+                    <tr>
+                      <td>1 Medium Pizza(mushroom) + 1 Drinks</td>
+                      <td>Rs 699</td>
+                    </tr>
+                    <tr>
+                      <td>1 Small Pizza(chicken) + 1 Burger + 2 Drinks</td>
+                      <td>Rs 799</td>
+                    </tr>
+                    <tr>
+                      <td>2 Small(chicken) + 2 Burger + 3 Drinks</td>
+                      <td>Rs 1399</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger p-2 px-3"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="main-btn">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section-3 about -->
+    <section id="about">
+      <div class="about-section wrapper">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-7 col-md-12 mb-lg-0 mb-5">
+              <div class="card borfer-0">
+                <img src="./media/img-1.png" class="img-fluid" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-12 text-sec">
+              <h2>
+                We pride ourselves on making real food from the best
+                ingredients.
+              </h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum
+                tenetur reiciendis quidem illo provident perspiciatis molestiae
+                nulla, laboriosam et maiores natus consequuntur, sed quibusdam
+                odio? Sed corrupti fuga asperiores similique temporibus qui enim
+                perferendis maxime explicabo. Sed culpa temporibus ex maxime.
+                Recusandae doloremque unde earum culpa! Id quam iure tenetur.
+              </p>
+              <button class="main-btn mt-4">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="container food-type">
+          <div class="row align-items-center">
+            <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-5">
+              <h2>
+                We make everything by the hand with the best possible
+                ingredients.
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                nihil omnis ea natus beatae cupiditate ut, iusto rerum sequi
+                excepturi pariatur sapiente quas eius reprehenderit neque magni
+                nesciunt iste exercitationem illum vero dolor accusantium. Sunt
+                quos similique quo laudantium! Nam debitis asperiores harum nemo
+                dolorum, facilis iste quibusdam itaque. Expedita?
+              </p>
+              <ul class="list-unstyled py-3">
+                <li>
+                  <i class="bi bi-check"></i> Lorem ipsum dolor sit amet
+                  consectetur.
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>nesciunt iste exercitationem illum
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>Lorem ipsum dolor sit amet
+                  consectetur.
+                </li>
+              </ul>
+              <button class="main-btn mt-4">Learn More</button>
+            </div>
+            <div class="col-lg-7 col-md-12">
+              <div class="card border-0">
+                <img src="./media/img-2.png" class="img-fluid" alt="image" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section-4 explore food -->
+    <section id="explore-food">
+      <div class="explore-food wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="text-content text-center">
+                <h2>Explore Our Foods</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eveniet tempore quos asperiores architecto numquam
+                  reprehenderit alias laudantium perferendis natus amet
+                  consequatur in suscipit reiciendis incidunt, fugiat commodi
+                  est pariatur quas dolore officiis voluptate doloremque.
+                  Tempora ipsum facilis aliquid, natus et reiciendis error,
+                  autem eum magni ex impedit facere quis tenetur.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-5">
+            <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+              <div class="card border">
+                <img src="./media/img-3.jpg" alt="img" class="img-fluid" />
+                <div class="p-3">
+                  <h5>The taste of French Fries with Salad</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,
+                    distinctio nihil beatae hic veniam veritatis totam
+                    blanditiis aliquid ipsum earum
+                  </p>
+                  <button class="mt-2 main-btn">Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+              <div class="card border">
+                <img src="./media/img-4.jpg" alt="img" class="img-fluid" />
+                <div class="p-3">
+                  <h5>The ultimate Hangover Burger: Cheesy</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,
+                    distinctio nihil beatae hic veniam veritatis totam
+                    blanditiis aliquid ipsum earum
+                  </p>
+                  <button class="mt-2 main-btn">Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+              <div class="card border">
+                <img src="./media/img-5.jpg" alt="img" class="img-fluid" />
+                <div class="p-3">
+                  <h5>10 reason to detox body with drink</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,
+                    distinctio nihil beatae hic veniam veritatis totam
+                    blanditiis aliquid ipsum earum
+                  </p>
+                  <button class="mt-2 main-btn">Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section-5  -->
+    <section id="testimonial">
+      <div class="wrapper testimonial-section">
+        <div class="container text-center">
+          <div class="text-center pb-4">
+            <h2>Testimonial</h2>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-lg-10">
+              <div id="carouselExample" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="carousel-caption">
+                      <img src="./media/review-1.jpg" alt="image" />
+                      <p>
+                        "Far far away, brhind thw word mountain,Lorem ipsum
+                        dolor sit amet consectetur adipisicing elit. Voluptas,
+                        nihil!
+                      </p>
+                      <h5>Johnthan Doe</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-caption">
+                      <img src="./media/review-2.jpg" alt="image" />
+                      <p>
+                        "Far far away, brhind thw word mountain,Lorem ipsum
+                        dolor sit amet consectetur adipisicing elit. Voluptas,
+                        nihil!
+                      </p>
+                      <h5>Gracie Joshep</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-caption">
+                      <img
+                        src="https://thumbs.dreamstime.com/b/portrait-young-handsome-happy-man-wearing-glasses-casual-smart-blue-clothing-yellow-color-background-square-composition-200740125.jpg"
+                        alt="image"
+                      />
+                      <p>
+                        "Far far away, brhind thw word mountain,Lorem ipsum
+                        dolor sit amet consectetur adipisicing elit. Voluptas,
+                        nihil!
+                      </p>
+                      <h5>Andie Frank</h5>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExample"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExample"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <!-- <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./media/b1.png" class="d-block w-100" alt="..." />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./media/b2.png" class="d-block w-100" alt="..." />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./media/category1.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section-6 footer -->
+    <div class="px-5 bg-black">
+      <footer id="footer" class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#home" class="nav-link p-0 text-body-secondary"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#about" class="nav-link p-0 text-body-secondary"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#explore-food" class="nav-link p-0 text-body-secondary"
+                  >Explore Food</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#testimonial" class="nav-link p-0 text-body-secondary"
+                  >Testimonials</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#home" class="nav-link p-0 text-body-secondary"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#about" class="nav-link p-0 text-body-secondary"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#explore-food" class="nav-link p-0 text-body-secondary"
+                  >Explore Food</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#testimonial" class="nav-link p-0 text-body-secondary"
+                  >Testimonials</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden"
+                  >Email address</label
+                >
+                <input
+                  id="newsletter1"
+                  type="text"
+                  class="form-control"
+                  placeholder="Email address"
+                />
+                <button class="main-btn" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div
+          class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+        >
+          <p>&copy; 2024 BURGER, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="https://www.youtube.com/"
+                ><i class="bi bi-youtube text-light"></i
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="https://www.facebook.com/"
+                ><i class="bi bi-facebook text-light"></i
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="https://www.instagram.com/"
+                ><i class="bi bi-instagram text-light"></i
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="https://www.twitter.com/"
+                ><i class="bi bi-twitter text-light"></i
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="https://www.tiktok.com/"
+                ><i class="bi bi-tiktok text-light"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <!-- <div class="preview">
+      <img src="./media/category1.png" alt="" />
+      <h3></h3>
+      <div class="starts text-warning">
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-half"></i>
+        <span>(250)</span>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+        repellendus.
+      </p>
+      <div class="price">Rs. 250</div>
+      <button class="buttons">
+        <a href="" class="buy">buy now</a>
+        <a href="" class="cart">Add to Cart</a>
+      </button>
+    </div> -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
